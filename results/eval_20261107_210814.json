@@ -1,0 +1,1752 @@
+{
+  "date": "2026-11-07T21:12:48",
+  "embedding_model": "intfloat/multilingual-e5-base",
+  "llm": "openai/gpt-oss-120b",
+  "judge": null,
+  "k": 5,
+  "budget": "5 articles distincts",
+  "reranker": "BAAI/bge-reranker-v2-m3",
+  "chunk_size": 1500,
+  "results": [
+    {
+      "mode": "vector",
+      "k": 5,
+      "rows": [
+        {
+          "id": "F01",
+          "type": "factuelle",
+          "question": "Dans quel délai le responsable du traitement doit-il notifier une violation de données personnelles à l'autorité de contrôle selon le RGPD ?",
+          "gold": [
+            "32016R0679_art_33"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_33",
+            "32016R0679_art_36",
+            "32016L0680_art_30",
+            "32016R0679_art_58",
+            "32018R1725_art_92"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 8.82,
+          "n_articles": 5,
+          "context_chars": 6132,
+          "context_tokens_approx": 1533
+        },
+        {
+          "id": "F02",
+          "type": "factuelle",
+          "question": "Quel est le montant maximal des amendes administratives prévues par le RGPD ?",
+          "gold": [
+            "32016R0679_art_83"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_83",
+            "32016R0679_art_84",
+            "32019R1238_art_67",
+            "32025R0327_art_64",
+            "32018R1725_art_66"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.04,
+          "n_articles": 5,
+          "context_chars": 6041,
+          "context_tokens_approx": 1510
+        },
+        {
+          "id": "F03",
+          "type": "factuelle",
+          "question": "Dans quels cas une personne peut-elle obtenir l'effacement de ses données personnelles ?",
+          "gold": [
+            "32016R0679_art_17"
+          ],
+          "retrieved_articles": [
+            "32018R1725_art_19",
+            "32016R0679_art_17",
+            "32016R0794_art_31",
+            "32016L0680_art_16",
+            "32019R0818_art_48"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 6470,
+          "context_tokens_approx": 1618
+        },
+        {
+          "id": "F04",
+          "type": "factuelle",
+          "question": "Quelles sont les bases légales qui rendent licite un traitement de données à caractère personnel ?",
+          "gold": [
+            "32016R0679_art_6"
+          ],
+          "retrieved_articles": [
+            "32018R1725_art_5",
+            "32016R0679_art_14",
+            "32016R0679_art_6",
+            "32019R0818_art_42",
+            "32016L0680_art_4"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.3333333333333333,
+          "retrieval_seconds": 0.04,
+          "n_articles": 5,
+          "context_chars": 6785,
+          "context_tokens_approx": 1696
+        },
+        {
+          "id": "F05",
+          "type": "factuelle",
+          "question": "Quand un organisme est-il obligé de désigner un délégué à la protection des données ?",
+          "gold": [
+            "32016R0679_art_37"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_37",
+            "32016L0680_art_32",
+            "32018R1725_art_44",
+            "32018R1725_art_43",
+            "32017R1939_art_77"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.04,
+          "n_articles": 5,
+          "context_chars": 5509,
+          "context_tokens_approx": 1377
+        },
+        {
+          "id": "F06",
+          "type": "factuelle",
+          "question": "Sous quel format les données doivent-elles être fournies au titre du droit à la portabilité ?",
+          "gold": [
+            "32016R0679_art_20"
+          ],
+          "retrieved_articles": [
+            "32025R0327_art_7",
+            "32023R2854_art_4",
+            "32023R2854_art_33",
+            "32023R2854_art_17",
+            "32018R1725_art_22"
+          ],
+          "recall": 0.0,
+          "hit": 0.0,
+          "rr": 0.0,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 7120,
+          "context_tokens_approx": 1780
+        },
+        {
+          "id": "F07",
+          "type": "factuelle",
+          "question": "Quelles pratiques en matière d'intelligence artificielle sont interdites par l'AI Act ?",
+          "gold": [
+            "32024R1689_art_5"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_5",
+            "32024R1689_art_10",
+            "32024R1689_art_106",
+            "32026R1744_art_1",
+            "32024R1689_art_103"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.04,
+          "n_articles": 5,
+          "context_chars": 4158,
+          "context_tokens_approx": 1040
+        },
+        {
+          "id": "F08",
+          "type": "factuelle",
+          "question": "Quelles amendes sont encourues en cas de non-respect des pratiques d'IA interdites ?",
+          "gold": [
+            "32024R1689_art_99"
+          ],
+          "retrieved_articles": [
+            "32026R1744_art_1",
+            "32024R1689_art_101",
+            "32024R1689_art_99",
+            "32016R0679_art_83",
+            "32024R1689_art_100"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.3333333333333333,
+          "retrieval_seconds": 0.04,
+          "n_articles": 5,
+          "context_chars": 7296,
+          "context_tokens_approx": 1824
+        },
+        {
+          "id": "F09",
+          "type": "factuelle",
+          "question": "À partir de quelle date l'AI Act est-il applicable, et quelles dispositions s'appliquent plus tôt ?",
+          "gold": [
+            "32024R1689_art_113"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_111",
+            "32024R1689_art_113",
+            "32024R1689_art_27",
+            "32024R1689_art_10",
+            "32024R1689_art_56"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 2561,
+          "context_tokens_approx": 640
+        },
+        {
+          "id": "F10",
+          "type": "factuelle",
+          "question": "À partir de combien d'utilisateurs une plateforme est-elle considérée comme une très grande plateforme en ligne au sens du DSA ?",
+          "gold": [
+            "32022R2065_art_33"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_33",
+            "32022R2065_art_41",
+            "32022R2065_art_23",
+            "32022R2065_art_69",
+            "32024R1083_art_18"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.04,
+          "n_articles": 5,
+          "context_chars": 7100,
+          "context_tokens_approx": 1775
+        },
+        {
+          "id": "F11",
+          "type": "factuelle",
+          "question": "Quels seuils font présumer qu'une entreprise est un contrôleur d'accès selon le DMA ?",
+          "gold": [
+            "32022R1925_art_3"
+          ],
+          "retrieved_articles": [
+            "32022R1925_art_3",
+            "32022R1925_art_13",
+            "32022R1925_art_5",
+            "32022R1925_art_12",
+            "32022R1925_art_17"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 4343,
+          "context_tokens_approx": 1086
+        },
+        {
+          "id": "F12",
+          "type": "factuelle",
+          "question": "Quelles sont les étapes et délais de notification d'un incident important prévus par NIS2 ?",
+          "gold": [
+            "32022L2555_art_23"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32024R2847_art_14",
+            "32026R0255_art_14",
+            "32024R0982_art_54",
+            "32024R1689_art_73"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 6689,
+          "context_tokens_approx": 1672
+        },
+        {
+          "id": "F13",
+          "type": "factuelle",
+          "question": "Dans quel délai un fabricant doit-il signaler une vulnérabilité activement exploitée dans un produit comportant des éléments numériques ?",
+          "gold": [
+            "32024R2847_art_14"
+          ],
+          "retrieved_articles": [
+            "32024R2847_art_13",
+            "32024R2847_art_14",
+            "32024R2847_art_19",
+            "32024R2847_art_15",
+            "32024R2847_art_20"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 0.03,
+          "n_articles": 5,
+          "context_chars": 6554,
+          "context_tokens_approx": 1638
+        },
+        {
+          "id": "F14",
+          "type": "factuelle",
+          "question": "Quelles obligations de transparence s'appliquent aux systèmes d'IA qui génèrent des hypertrucages (deepfakes) ?",
+          "gold": [
+            "32024R1689_art_50"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_50",
+            "32024R1689_art_55",
+            "32024R1689_art_13",
+            "32024R1689_art_16",
+            "32024R1689_art_15"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 5131,
+          "context_tokens_approx": 1283
+        },
+        {
+          "id": "R01",
+          "type": "relationnelle",
+          "question": "Quelle directive le RGPD abroge-t-il et à partir de quand ?",
+          "gold": [
+            "32016R0679_art_94"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_94",
+            "32016R0679_art_99",
+            "32016R0679_art_58",
+            "32016R0679_art_88",
+            "32016R0679_art_22"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.04,
+          "n_articles": 5,
+          "context_chars": 2284,
+          "context_tokens_approx": 571
+        },
+        {
+          "id": "R02",
+          "type": "relationnelle",
+          "question": "Comment le DSA modifie-t-il la directive sur le commerce électronique 2000/31/CE ?",
+          "gold": [
+            "32022R2065_art_89"
+          ],
+          "retrieved_articles": [
+            "32000L0031_art_24",
+            "32000L0031_art_21",
+            "32000L0031_art_23",
+            "32000L0031_art_22",
+            "32000L0031_art_13"
+          ],
+          "recall": 0.0,
+          "hit": 0.0,
+          "rr": 0.0,
+          "retrieval_seconds": 0.04,
+          "n_articles": 5,
+          "context_chars": 3039,
+          "context_tokens_approx": 760
+        },
+        {
+          "id": "R03",
+          "type": "relationnelle",
+          "question": "Quelle directive est abrogée par NIS2 ?",
+          "gold": [
+            "32022L2555_art_44"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_32",
+            "32022L2555_art_33",
+            "32022L2555_art_27",
+            "32022L2555_art_44",
+            "32022L2555_art_2"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.25,
+          "retrieval_seconds": 0.04,
+          "n_articles": 5,
+          "context_chars": 1967,
+          "context_tokens_approx": 492
+        },
+        {
+          "id": "R04",
+          "type": "relationnelle",
+          "question": "Sur quels articles du RGPD s'appuie l'obligation de réaliser une analyse d'impact, et quand est-elle requise ?",
+          "gold": [
+            "32016R0679_art_35"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_35",
+            "32016R0679_art_57",
+            "32018R1725_art_39",
+            "32016R0679_art_64",
+            "32016R0679_art_36"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 5976,
+          "context_tokens_approx": 1494
+        },
+        {
+          "id": "M01",
+          "type": "multi_hop",
+          "question": "Comparez les délais de notification d'incident du RGPD et de NIS2.",
+          "gold": [
+            "32016R0679_art_33",
+            "32022L2555_art_23"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32026R0255_art_14",
+            "32024R2847_art_14",
+            "32024R1689_art_73",
+            "32024R1358_art_51"
+          ],
+          "recall": 0.5,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.04,
+          "n_articles": 5,
+          "context_chars": 6927,
+          "context_tokens_approx": 1732
+        },
+        {
+          "id": "M02",
+          "type": "multi_hop",
+          "question": "Quels sont les plafonds d'amende du RGPD, de l'AI Act et du DMA ?",
+          "gold": [
+            "32016R0679_art_83",
+            "32024R1689_art_99",
+            "32022R1925_art_30"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_83",
+            "32022R1925_art_30",
+            "32024R1689_art_99",
+            "32016R0679_art_23",
+            "32024R1689_art_100"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.04,
+          "n_articles": 5,
+          "context_chars": 4167,
+          "context_tokens_approx": 1042
+        },
+        {
+          "id": "M03",
+          "type": "multi_hop",
+          "question": "Quelles obligations pèsent sur les très grandes plateformes en ligne : à partir de quand sont-elles désignées et quels risques doivent-elles évaluer ?",
+          "gold": [
+            "32022R2065_art_33",
+            "32022R2065_art_34"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_34",
+            "32022R2065_art_33",
+            "32022R2065_art_41",
+            "32022R2065_art_65",
+            "32022R2065_art_36"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 6065,
+          "context_tokens_approx": 1516
+        },
+        {
+          "id": "M04",
+          "type": "multi_hop",
+          "question": "Comparez les obligations de signalement d'incidents de NIS2 et du Cyber Resilience Act.",
+          "gold": [
+            "32022L2555_art_23",
+            "32024R2847_art_14"
+          ],
+          "retrieved_articles": [
+            "32019R0881_art_7",
+            "32022L2555_art_23",
+            "32024R2847_art_14",
+            "32022L2555_art_6",
+            "32022R2554_art_33"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 0.04,
+          "n_articles": 5,
+          "context_chars": 7293,
+          "context_tokens_approx": 1823
+        },
+        {
+          "id": "M05",
+          "type": "multi_hop",
+          "question": "Quelles amendes les États membres doivent-ils prévoir pour les entités essentielles et importantes sous NIS2, et comment se comparent-elles aux amendes du RGPD ?",
+          "gold": [
+            "32022L2555_art_34",
+            "32016R0679_art_83"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_34",
+            "32016R0679_art_83",
+            "32022L2555_art_32",
+            "32024R2847_art_64",
+            "32018R1725_art_66"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 7368,
+          "context_tokens_approx": 1842
+        },
+        {
+          "id": "M06",
+          "type": "multi_hop",
+          "question": "Quel droit d'accès aux données des produits connectés le Data Act donne-t-il à l'utilisateur, et peut-il les partager avec un tiers ?",
+          "gold": [
+            "32023R2854_art_3",
+            "32023R2854_art_4",
+            "32023R2854_art_5"
+          ],
+          "retrieved_articles": [
+            "32023R2854_art_6",
+            "32023R2854_art_2",
+            "32023R2854_art_3",
+            "32023R2854_art_5",
+            "32023R2854_art_4"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.3333333333333333,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 6949,
+          "context_tokens_approx": 1737
+        }
+      ],
+      "summary": {
+        "global": {
+          "n": 24,
+          "recall@k": 0.896,
+          "hit@k": 0.917,
+          "mrr": 0.719,
+          "retrieval_seconds": 0.41,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1395.042
+        },
+        "factuelle": {
+          "n": 14,
+          "recall@k": 0.929,
+          "hit@k": 0.929,
+          "mrr": 0.726,
+          "retrieval_seconds": 0.671,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1462.286
+        },
+        "multi_hop": {
+          "n": 6,
+          "recall@k": 0.917,
+          "hit@k": 1.0,
+          "mrr": 0.806,
+          "retrieval_seconds": 0.045,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1615.333
+        },
+        "relationnelle": {
+          "n": 4,
+          "recall@k": 0.75,
+          "hit@k": 0.75,
+          "mrr": 0.562,
+          "retrieval_seconds": 0.042,
+          "n_articles": 5.0,
+          "context_tokens_approx": 829.25
+        }
+      }
+    },
+    {
+      "mode": "hybrid",
+      "k": 5,
+      "rows": [
+        {
+          "id": "F01",
+          "type": "factuelle",
+          "question": "Dans quel délai le responsable du traitement doit-il notifier une violation de données personnelles à l'autorité de contrôle selon le RGPD ?",
+          "gold": [
+            "32016R0679_art_33"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_33",
+            "32016R0679_art_36",
+            "32016L0680_art_30",
+            "32016R0679_art_58",
+            "32016R0679_art_34"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 1.76,
+          "n_articles": 5,
+          "context_chars": 6200,
+          "context_tokens_approx": 1550
+        },
+        {
+          "id": "F02",
+          "type": "factuelle",
+          "question": "Quel est le montant maximal des amendes administratives prévues par le RGPD ?",
+          "gold": [
+            "32016R0679_art_83"
+          ],
+          "retrieved_articles": [
+            "32019R1238_art_67",
+            "32016R0679_art_83",
+            "32016R0679_art_84",
+            "32018R1725_art_66",
+            "32025R0327_art_64"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 0.06,
+          "n_articles": 5,
+          "context_chars": 5553,
+          "context_tokens_approx": 1388
+        },
+        {
+          "id": "F03",
+          "type": "factuelle",
+          "question": "Dans quels cas une personne peut-elle obtenir l'effacement de ses données personnelles ?",
+          "gold": [
+            "32016R0679_art_17"
+          ],
+          "retrieved_articles": [
+            "32018R1725_art_19",
+            "32016R0794_art_31",
+            "32016L0680_art_16",
+            "32016R0679_art_17",
+            "32017R1939_art_61"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.25,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 6507,
+          "context_tokens_approx": 1627
+        },
+        {
+          "id": "F04",
+          "type": "factuelle",
+          "question": "Quelles sont les bases légales qui rendent licite un traitement de données à caractère personnel ?",
+          "gold": [
+            "32016R0679_art_6"
+          ],
+          "retrieved_articles": [
+            "32018R1725_art_72",
+            "32016L0680_art_4",
+            "32016R0679_art_6",
+            "32018R1725_art_5",
+            "32016L0680_art_8"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.3333333333333333,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 5365,
+          "context_tokens_approx": 1341
+        },
+        {
+          "id": "F05",
+          "type": "factuelle",
+          "question": "Quand un organisme est-il obligé de désigner un délégué à la protection des données ?",
+          "gold": [
+            "32016R0679_art_37"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_37",
+            "32018R1725_art_43",
+            "32017R1939_art_77",
+            "32022R0991_art_1",
+            "32016R0794_art_41"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.06,
+          "n_articles": 5,
+          "context_chars": 6336,
+          "context_tokens_approx": 1584
+        },
+        {
+          "id": "F06",
+          "type": "factuelle",
+          "question": "Sous quel format les données doivent-elles être fournies au titre du droit à la portabilité ?",
+          "gold": [
+            "32016R0679_art_20"
+          ],
+          "retrieved_articles": [
+            "32018R1725_art_22",
+            "32025R0327_art_7",
+            "32016R0679_art_20",
+            "32016R0679_art_14",
+            "32023R2854_art_4"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.3333333333333333,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 6239,
+          "context_tokens_approx": 1560
+        },
+        {
+          "id": "F07",
+          "type": "factuelle",
+          "question": "Quelles pratiques en matière d'intelligence artificielle sont interdites par l'AI Act ?",
+          "gold": [
+            "32024R1689_art_5"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_5",
+            "32024R1689_art_106",
+            "32024R1689_art_103",
+            "32024R1689_art_107",
+            "32024R1689_art_104"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 3441,
+          "context_tokens_approx": 860
+        },
+        {
+          "id": "F08",
+          "type": "factuelle",
+          "question": "Quelles amendes sont encourues en cas de non-respect des pratiques d'IA interdites ?",
+          "gold": [
+            "32024R1689_art_99"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_100",
+            "32024R1689_art_99",
+            "32024R1689_art_79",
+            "32022R1925_art_30",
+            "32024R2847_art_64"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 0.06,
+          "n_articles": 5,
+          "context_chars": 7086,
+          "context_tokens_approx": 1772
+        },
+        {
+          "id": "F09",
+          "type": "factuelle",
+          "question": "À partir de quelle date l'AI Act est-il applicable, et quelles dispositions s'appliquent plus tôt ?",
+          "gold": [
+            "32024R1689_art_113"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_113",
+            "32024R1689_art_111",
+            "32019L0770_art_24",
+            "32025L2205_art_29",
+            "32024R1689_art_27"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.06,
+          "n_articles": 5,
+          "context_chars": 3834,
+          "context_tokens_approx": 958
+        },
+        {
+          "id": "F10",
+          "type": "factuelle",
+          "question": "À partir de combien d'utilisateurs une plateforme est-elle considérée comme une très grande plateforme en ligne au sens du DSA ?",
+          "gold": [
+            "32022R2065_art_33"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_33",
+            "32022R2065_art_41",
+            "32022R2065_art_69",
+            "32022R2065_art_65",
+            "32024R1083_art_2"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.07,
+          "n_articles": 5,
+          "context_chars": 6668,
+          "context_tokens_approx": 1667
+        },
+        {
+          "id": "F11",
+          "type": "factuelle",
+          "question": "Quels seuils font présumer qu'une entreprise est un contrôleur d'accès selon le DMA ?",
+          "gold": [
+            "32022R1925_art_3"
+          ],
+          "retrieved_articles": [
+            "32022R1925_art_13",
+            "32022R1925_art_3",
+            "32022R1925_art_5",
+            "32022R1925_art_17",
+            "32022R1925_art_6"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 0.06,
+          "n_articles": 5,
+          "context_chars": 4311,
+          "context_tokens_approx": 1078
+        },
+        {
+          "id": "F12",
+          "type": "factuelle",
+          "question": "Quelles sont les étapes et délais de notification d'un incident important prévus par NIS2 ?",
+          "gold": [
+            "32022L2555_art_23"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32024R2847_art_14",
+            "32022L2557_art_15",
+            "32024R0982_art_4",
+            "32026R0255_art_14"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 6718,
+          "context_tokens_approx": 1680
+        },
+        {
+          "id": "F13",
+          "type": "factuelle",
+          "question": "Dans quel délai un fabricant doit-il signaler une vulnérabilité activement exploitée dans un produit comportant des éléments numériques ?",
+          "gold": [
+            "32024R2847_art_14"
+          ],
+          "retrieved_articles": [
+            "32024R2847_art_14",
+            "32024R2847_art_15",
+            "32024R2847_art_19",
+            "32024R2847_art_20",
+            "32024R2847_art_3"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.07,
+          "n_articles": 5,
+          "context_chars": 6775,
+          "context_tokens_approx": 1694
+        },
+        {
+          "id": "F14",
+          "type": "factuelle",
+          "question": "Quelles obligations de transparence s'appliquent aux systèmes d'IA qui génèrent des hypertrucages (deepfakes) ?",
+          "gold": [
+            "32024R1689_art_50"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_50",
+            "32024R1689_art_13",
+            "32024R1689_art_26",
+            "32024R1689_art_16",
+            "32024R1689_art_55"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.07,
+          "n_articles": 5,
+          "context_chars": 5884,
+          "context_tokens_approx": 1471
+        },
+        {
+          "id": "R01",
+          "type": "relationnelle",
+          "question": "Quelle directive le RGPD abroge-t-il et à partir de quand ?",
+          "gold": [
+            "32016R0679_art_94"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_99",
+            "32016R0679_art_94",
+            "32009R0223_art_28",
+            "32025L2205_art_30",
+            "32016R0679_art_58"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 2860,
+          "context_tokens_approx": 715
+        },
+        {
+          "id": "R02",
+          "type": "relationnelle",
+          "question": "Comment le DSA modifie-t-il la directive sur le commerce électronique 2000/31/CE ?",
+          "gold": [
+            "32022R2065_art_89"
+          ],
+          "retrieved_articles": [
+            "32000L0031_art_23",
+            "32000L0031_art_5",
+            "32000L0031_art_24",
+            "32000L0031_art_13",
+            "32000L0031_art_19"
+          ],
+          "recall": 0.0,
+          "hit": 0.0,
+          "rr": 0.0,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 1291,
+          "context_tokens_approx": 323
+        },
+        {
+          "id": "R03",
+          "type": "relationnelle",
+          "question": "Quelle directive est abrogée par NIS2 ?",
+          "gold": [
+            "32022L2555_art_44"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_44",
+            "32022L2555_art_43",
+            "32022L2555_art_32",
+            "32022L2555_art_33",
+            "32022L2557_art_27"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.04,
+          "n_articles": 5,
+          "context_chars": 1623,
+          "context_tokens_approx": 406
+        },
+        {
+          "id": "R04",
+          "type": "relationnelle",
+          "question": "Sur quels articles du RGPD s'appuie l'obligation de réaliser une analyse d'impact, et quand est-elle requise ?",
+          "gold": [
+            "32016R0679_art_35"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_35",
+            "32018R1725_art_39",
+            "32016R0679_art_57",
+            "32024R1689_art_27",
+            "32024R2981_art_5"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.07,
+          "n_articles": 5,
+          "context_chars": 6252,
+          "context_tokens_approx": 1563
+        },
+        {
+          "id": "M01",
+          "type": "multi_hop",
+          "question": "Comparez les délais de notification d'incident du RGPD et de NIS2.",
+          "gold": [
+            "32016R0679_art_33",
+            "32022L2555_art_23"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32024R2847_art_14",
+            "32024R1689_art_73",
+            "32026R0255_art_14",
+            "32022R2554_art_19"
+          ],
+          "recall": 0.5,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.06,
+          "n_articles": 5,
+          "context_chars": 6998,
+          "context_tokens_approx": 1750
+        },
+        {
+          "id": "M02",
+          "type": "multi_hop",
+          "question": "Quels sont les plafonds d'amende du RGPD, de l'AI Act et du DMA ?",
+          "gold": [
+            "32016R0679_art_83",
+            "32024R1689_art_99",
+            "32022R1925_art_30"
+          ],
+          "retrieved_articles": [
+            "32022R1925_art_30",
+            "32016R0679_art_83",
+            "32024R1689_art_99",
+            "32024R1689_art_100",
+            "32022R1925_art_45"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.05,
+          "n_articles": 5,
+          "context_chars": 3956,
+          "context_tokens_approx": 989
+        },
+        {
+          "id": "M03",
+          "type": "multi_hop",
+          "question": "Quelles obligations pèsent sur les très grandes plateformes en ligne : à partir de quand sont-elles désignées et quels risques doivent-elles évaluer ?",
+          "gold": [
+            "32022R2065_art_33",
+            "32022R2065_art_34"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_33",
+            "32022R2065_art_34",
+            "32022R2065_art_29",
+            "32022R2065_art_37",
+            "32022R2065_art_19"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.07,
+          "n_articles": 5,
+          "context_chars": 5638,
+          "context_tokens_approx": 1410
+        },
+        {
+          "id": "M04",
+          "type": "multi_hop",
+          "question": "Comparez les obligations de signalement d'incidents de NIS2 et du Cyber Resilience Act.",
+          "gold": [
+            "32022L2555_art_23",
+            "32024R2847_art_14"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32019R0881_art_7",
+            "32022L2555_art_9",
+            "32022L2555_art_7",
+            "32022L2555_art_13"
+          ],
+          "recall": 0.5,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.06,
+          "n_articles": 5,
+          "context_chars": 5214,
+          "context_tokens_approx": 1304
+        },
+        {
+          "id": "M05",
+          "type": "multi_hop",
+          "question": "Quelles amendes les États membres doivent-ils prévoir pour les entités essentielles et importantes sous NIS2, et comment se comparent-elles aux amendes du RGPD ?",
+          "gold": [
+            "32022L2555_art_34",
+            "32016R0679_art_83"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_34",
+            "32022L2555_art_3",
+            "32016R0679_art_83",
+            "32024R2847_art_64",
+            "32022L2555_art_32"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.06,
+          "n_articles": 5,
+          "context_chars": 5382,
+          "context_tokens_approx": 1346
+        },
+        {
+          "id": "M06",
+          "type": "multi_hop",
+          "question": "Quel droit d'accès aux données des produits connectés le Data Act donne-t-il à l'utilisateur, et peut-il les partager avec un tiers ?",
+          "gold": [
+            "32023R2854_art_3",
+            "32023R2854_art_4",
+            "32023R2854_art_5"
+          ],
+          "retrieved_articles": [
+            "32023R2854_art_5",
+            "32023R2854_art_6",
+            "32023R2854_art_7",
+            "32023R2854_art_2",
+            "32023R2854_art_3"
+          ],
+          "recall": 0.6666666666666666,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 0.08,
+          "n_articles": 5,
+          "context_chars": 6865,
+          "context_tokens_approx": 1716
+        }
+      ],
+      "summary": {
+        "global": {
+          "n": 24,
+          "recall@k": 0.903,
+          "hit@k": 0.958,
+          "mrr": 0.788,
+          "retrieval_seconds": 0.13,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1323.0
+        },
+        "factuelle": {
+          "n": 14,
+          "recall@k": 1.0,
+          "hit@k": 1.0,
+          "mrr": 0.744,
+          "retrieval_seconds": 0.18,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1445.0
+        },
+        "multi_hop": {
+          "n": 6,
+          "recall@k": 0.778,
+          "hit@k": 1.0,
+          "mrr": 1.0,
+          "retrieval_seconds": 0.063,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1419.167
+        },
+        "relationnelle": {
+          "n": 4,
+          "recall@k": 0.75,
+          "hit@k": 0.75,
+          "mrr": 0.625,
+          "retrieval_seconds": 0.053,
+          "n_articles": 5.0,
+          "context_tokens_approx": 751.75
+        }
+      }
+    },
+    {
+      "mode": "advanced",
+      "k": 5,
+      "rows": [
+        {
+          "id": "F01",
+          "type": "factuelle",
+          "question": "Dans quel délai le responsable du traitement doit-il notifier une violation de données personnelles à l'autorité de contrôle selon le RGPD ?",
+          "gold": [
+            "32016R0679_art_33"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_33",
+            "32016L0680_art_30",
+            "32016R0679_art_36",
+            "32016R0679_art_56",
+            "32018R1725_art_34"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 15.25,
+          "n_articles": 5,
+          "context_chars": 6157,
+          "context_tokens_approx": 1539
+        },
+        {
+          "id": "F02",
+          "type": "factuelle",
+          "question": "Quel est le montant maximal des amendes administratives prévues par le RGPD ?",
+          "gold": [
+            "32016R0679_art_83"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_83",
+            "32019R1238_art_67",
+            "32022L2555_art_34",
+            "32025R0327_art_64",
+            "32018R1725_art_66"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 10.91,
+          "n_articles": 5,
+          "context_chars": 6255,
+          "context_tokens_approx": 1564
+        },
+        {
+          "id": "F03",
+          "type": "factuelle",
+          "question": "Dans quels cas une personne peut-elle obtenir l'effacement de ses données personnelles ?",
+          "gold": [
+            "32016R0679_art_17"
+          ],
+          "retrieved_articles": [
+            "32018R1725_art_19",
+            "32016R0679_art_17",
+            "32017R1939_art_61",
+            "32016L0680_art_16",
+            "32016R0794_art_31"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 11.8,
+          "n_articles": 5,
+          "context_chars": 6507,
+          "context_tokens_approx": 1627
+        },
+        {
+          "id": "F04",
+          "type": "factuelle",
+          "question": "Quelles sont les bases légales qui rendent licite un traitement de données à caractère personnel ?",
+          "gold": [
+            "32016R0679_art_6"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_6",
+            "32018R1725_art_72",
+            "32018R1725_art_5",
+            "32016L0680_art_8",
+            "32016R0679_art_5"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 11.06,
+          "n_articles": 5,
+          "context_chars": 5275,
+          "context_tokens_approx": 1319
+        },
+        {
+          "id": "F05",
+          "type": "factuelle",
+          "question": "Quand un organisme est-il obligé de désigner un délégué à la protection des données ?",
+          "gold": [
+            "32016R0679_art_37"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_37",
+            "32018R1725_art_43",
+            "32017R1939_art_77",
+            "32016L0680_art_32",
+            "32016R0794_art_41"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 10.08,
+          "n_articles": 5,
+          "context_chars": 6611,
+          "context_tokens_approx": 1653
+        },
+        {
+          "id": "F06",
+          "type": "factuelle",
+          "question": "Sous quel format les données doivent-elles être fournies au titre du droit à la portabilité ?",
+          "gold": [
+            "32016R0679_art_20"
+          ],
+          "retrieved_articles": [
+            "32018R1725_art_22",
+            "32016R0679_art_20",
+            "32025R0327_art_7",
+            "32016R0679_art_13",
+            "32016R0679_art_14"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 10.27,
+          "n_articles": 5,
+          "context_chars": 6878,
+          "context_tokens_approx": 1720
+        },
+        {
+          "id": "F07",
+          "type": "factuelle",
+          "question": "Quelles pratiques en matière d'intelligence artificielle sont interdites par l'AI Act ?",
+          "gold": [
+            "32024R1689_art_5"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_5",
+            "32024R1689_art_10",
+            "32024R1689_art_108",
+            "32024R1689_art_103",
+            "32024R1689_art_104"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 10.6,
+          "n_articles": 5,
+          "context_chars": 5229,
+          "context_tokens_approx": 1307
+        },
+        {
+          "id": "F08",
+          "type": "factuelle",
+          "question": "Quelles amendes sont encourues en cas de non-respect des pratiques d'IA interdites ?",
+          "gold": [
+            "32024R1689_art_99"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_99",
+            "32024R1689_art_100",
+            "32024R1689_art_5",
+            "32024R1689_art_101",
+            "32024R1689_art_79"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 12.05,
+          "n_articles": 5,
+          "context_chars": 7297,
+          "context_tokens_approx": 1824
+        },
+        {
+          "id": "F09",
+          "type": "factuelle",
+          "question": "À partir de quelle date l'AI Act est-il applicable, et quelles dispositions s'appliquent plus tôt ?",
+          "gold": [
+            "32024R1689_art_113"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_113",
+            "32024R1689_art_111",
+            "32024R1689_art_56",
+            "32024R1689_art_5",
+            "32025L2205_art_29"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 9.35,
+          "n_articles": 5,
+          "context_chars": 5910,
+          "context_tokens_approx": 1478
+        },
+        {
+          "id": "F10",
+          "type": "factuelle",
+          "question": "À partir de combien d'utilisateurs une plateforme est-elle considérée comme une très grande plateforme en ligne au sens du DSA ?",
+          "gold": [
+            "32022R2065_art_33"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_33",
+            "32022R2065_art_42",
+            "32022R2065_art_19",
+            "32022R2065_art_29",
+            "32022R2065_art_40"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 11.4,
+          "n_articles": 5,
+          "context_chars": 6568,
+          "context_tokens_approx": 1642
+        },
+        {
+          "id": "F11",
+          "type": "factuelle",
+          "question": "Quels seuils font présumer qu'une entreprise est un contrôleur d'accès selon le DMA ?",
+          "gold": [
+            "32022R1925_art_3"
+          ],
+          "retrieved_articles": [
+            "32022R1925_art_3",
+            "32022R1925_art_13",
+            "32022R1925_art_5",
+            "32022R1925_art_6",
+            "32022R1925_art_14"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 11.0,
+          "n_articles": 5,
+          "context_chars": 6146,
+          "context_tokens_approx": 1536
+        },
+        {
+          "id": "F12",
+          "type": "factuelle",
+          "question": "Quelles sont les étapes et délais de notification d'un incident important prévus par NIS2 ?",
+          "gold": [
+            "32022L2555_art_23"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32022L2555_art_30",
+            "32022L2557_art_15",
+            "32022L2555_art_32",
+            "32026R0255_art_14"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 12.97,
+          "n_articles": 5,
+          "context_chars": 4903,
+          "context_tokens_approx": 1226
+        },
+        {
+          "id": "F13",
+          "type": "factuelle",
+          "question": "Dans quel délai un fabricant doit-il signaler une vulnérabilité activement exploitée dans un produit comportant des éléments numériques ?",
+          "gold": [
+            "32024R2847_art_14"
+          ],
+          "retrieved_articles": [
+            "32024R2847_art_14",
+            "32024R2847_art_15",
+            "32024R2847_art_13",
+            "32024R2847_art_19",
+            "32024R2847_art_16"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 10.05,
+          "n_articles": 5,
+          "context_chars": 6955,
+          "context_tokens_approx": 1739
+        },
+        {
+          "id": "F14",
+          "type": "factuelle",
+          "question": "Quelles obligations de transparence s'appliquent aux systèmes d'IA qui génèrent des hypertrucages (deepfakes) ?",
+          "gold": [
+            "32024R1689_art_50"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_50",
+            "32024R1689_art_1",
+            "32024R1689_art_13",
+            "32024R1689_art_26",
+            "32026R1744_art_1"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 11.25,
+          "n_articles": 5,
+          "context_chars": 5763,
+          "context_tokens_approx": 1441
+        },
+        {
+          "id": "R01",
+          "type": "relationnelle",
+          "question": "Quelle directive le RGPD abroge-t-il et à partir de quand ?",
+          "gold": [
+            "32016R0679_art_94"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_94",
+            "32016R0679_art_99",
+            "32021L0514_art_1",
+            "32023R2842_art_4",
+            "32025L2205_art_30"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 8.29,
+          "n_articles": 5,
+          "context_chars": 3876,
+          "context_tokens_approx": 969
+        },
+        {
+          "id": "R02",
+          "type": "relationnelle",
+          "question": "Comment le DSA modifie-t-il la directive sur le commerce électronique 2000/31/CE ?",
+          "gold": [
+            "32022R2065_art_89"
+          ],
+          "retrieved_articles": [
+            "32000L0031_art_24",
+            "32000L0031_art_21",
+            "32022R2065_art_90",
+            "32000L0031_art_18",
+            "32000L0031_art_8"
+          ],
+          "recall": 0.0,
+          "hit": 0.0,
+          "rr": 0.0,
+          "retrieval_seconds": 10.11,
+          "n_articles": 5,
+          "context_chars": 5071,
+          "context_tokens_approx": 1268
+        },
+        {
+          "id": "R03",
+          "type": "relationnelle",
+          "question": "Quelle directive est abrogée par NIS2 ?",
+          "gold": [
+            "32022L2555_art_44"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_44",
+            "32022L2555_art_43",
+            "32022L2555_art_42",
+            "32022L2555_art_2",
+            "32022L2555_art_33"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 7.41,
+          "n_articles": 5,
+          "context_chars": 2253,
+          "context_tokens_approx": 563
+        },
+        {
+          "id": "R04",
+          "type": "relationnelle",
+          "question": "Sur quels articles du RGPD s'appuie l'obligation de réaliser une analyse d'impact, et quand est-elle requise ?",
+          "gold": [
+            "32016R0679_art_35"
+          ],
+          "retrieved_articles": [
+            "32016R0679_art_35",
+            "32016R0679_art_57",
+            "32018R1725_art_39",
+            "32016R0679_art_64",
+            "32016L0680_art_27"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 10.9,
+          "n_articles": 5,
+          "context_chars": 6792,
+          "context_tokens_approx": 1698
+        },
+        {
+          "id": "M01",
+          "type": "multi_hop",
+          "question": "Comparez les délais de notification d'incident du RGPD et de NIS2.",
+          "gold": [
+            "32016R0679_art_33",
+            "32022L2555_art_23"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32016R0679_art_33",
+            "32022L2555_art_30",
+            "32026R0255_art_14",
+            "32022L2557_art_15"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 10.86,
+          "n_articles": 5,
+          "context_chars": 5222,
+          "context_tokens_approx": 1306
+        },
+        {
+          "id": "M02",
+          "type": "multi_hop",
+          "question": "Quels sont les plafonds d'amende du RGPD, de l'AI Act et du DMA ?",
+          "gold": [
+            "32016R0679_art_83",
+            "32024R1689_art_99",
+            "32022R1925_art_30"
+          ],
+          "retrieved_articles": [
+            "32024R1689_art_100",
+            "32024R1689_art_99",
+            "32016R0679_art_83",
+            "32022R1925_art_30",
+            "32025R0327_art_64"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 0.5,
+          "retrieval_seconds": 10.6,
+          "n_articles": 5,
+          "context_chars": 5815,
+          "context_tokens_approx": 1454
+        },
+        {
+          "id": "M03",
+          "type": "multi_hop",
+          "question": "Quelles obligations pèsent sur les très grandes plateformes en ligne : à partir de quand sont-elles désignées et quels risques doivent-elles évaluer ?",
+          "gold": [
+            "32022R2065_art_33",
+            "32022R2065_art_34"
+          ],
+          "retrieved_articles": [
+            "32022R2065_art_33",
+            "32022R2065_art_34",
+            "32022R2065_art_37",
+            "32022R2065_art_42",
+            "32022R2065_art_65"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 10.73,
+          "n_articles": 5,
+          "context_chars": 5306,
+          "context_tokens_approx": 1326
+        },
+        {
+          "id": "M04",
+          "type": "multi_hop",
+          "question": "Comparez les obligations de signalement d'incidents de NIS2 et du Cyber Resilience Act.",
+          "gold": [
+            "32022L2555_art_23",
+            "32024R2847_art_14"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_23",
+            "32022L2555_art_4",
+            "32022L2555_art_11",
+            "32022L2555_art_6",
+            "32022L2555_art_9"
+          ],
+          "recall": 0.5,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 11.2,
+          "n_articles": 5,
+          "context_chars": 6339,
+          "context_tokens_approx": 1585
+        },
+        {
+          "id": "M05",
+          "type": "multi_hop",
+          "question": "Quelles amendes les États membres doivent-ils prévoir pour les entités essentielles et importantes sous NIS2, et comment se comparent-elles aux amendes du RGPD ?",
+          "gold": [
+            "32022L2555_art_34",
+            "32016R0679_art_83"
+          ],
+          "retrieved_articles": [
+            "32022L2555_art_34",
+            "32022L2555_art_3",
+            "32022L2555_art_32",
+            "32022L2555_art_20",
+            "32022L2555_art_30"
+          ],
+          "recall": 0.5,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 11.0,
+          "n_articles": 5,
+          "context_chars": 6247,
+          "context_tokens_approx": 1562
+        },
+        {
+          "id": "M06",
+          "type": "multi_hop",
+          "question": "Quel droit d'accès aux données des produits connectés le Data Act donne-t-il à l'utilisateur, et peut-il les partager avec un tiers ?",
+          "gold": [
+            "32023R2854_art_3",
+            "32023R2854_art_4",
+            "32023R2854_art_5"
+          ],
+          "retrieved_articles": [
+            "32023R2854_art_5",
+            "32023R2854_art_4",
+            "32023R2854_art_6",
+            "32023R2854_art_3",
+            "32023R2854_art_1"
+          ],
+          "recall": 1.0,
+          "hit": 1.0,
+          "rr": 1.0,
+          "retrieval_seconds": 11.91,
+          "n_articles": 5,
+          "context_chars": 6812,
+          "context_tokens_approx": 1703
+        }
+      ],
+      "summary": {
+        "global": {
+          "n": 24,
+          "recall@k": 0.917,
+          "hit@k": 0.958,
+          "mrr": 0.896,
+          "retrieval_seconds": 10.877,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1460.375
+        },
+        "factuelle": {
+          "n": 14,
+          "recall@k": 1.0,
+          "hit@k": 1.0,
+          "mrr": 0.929,
+          "retrieval_seconds": 11.289,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1543.929
+        },
+        "multi_hop": {
+          "n": 6,
+          "recall@k": 0.833,
+          "hit@k": 1.0,
+          "mrr": 0.917,
+          "retrieval_seconds": 11.05,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1489.333
+        },
+        "relationnelle": {
+          "n": 4,
+          "recall@k": 0.75,
+          "hit@k": 0.75,
+          "mrr": 0.75,
+          "retrieval_seconds": 9.178,
+          "n_articles": 5.0,
+          "context_tokens_approx": 1124.5
+        }
+      }
+    }
+  ]
+}

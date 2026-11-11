@@ -1,0 +1,21 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+ngrok-v3-stable-windows-amd64.zip
+
+# Index et bases régénérables (python -m app.rag.chunking ; l'index Chroma dépasse la limite de GitHub)
+app/vectorstore/
+app/vectorstore_juridique/
+agent-memory*.db
+
+# Données : on publie le corpus découpé (data/eurlex, data/index) et les questions ;
+# pas les textes XHTML bruts ni les sorties brutes de la collecte (recréées par scripts/collect_eurlex.py)
+data/raw/
+data/*.jsonl
+data/*.csv
+!data/eval_questions.jsonl
+
+# Notes de travail de l'assistant de code
+CLAUDE.md
